@@ -6,17 +6,18 @@ here’s a crisp, “agent-ready” product spec that prioritizes the **highest 
 
 ## 0) objectives & guardrails
 
-* **primary goal:** launch 2–3 passive, low-touch revenue streams that keep running after a one-time setup + occasional monthly check-ins.
-* **constraints:**
+- **primary goal:** launch 2–3 passive, low-touch revenue streams that keep running after a one-time setup + occasional monthly check-ins.
+- **constraints:**
 
-  * low controversy niches only.
-  * minimal recurring tool cost; fees must not erode margin.
-  * runs mostly by API + chat-ops with PC access.
-* **success metrics (90-day):**
+  - low controversy niches only.
+  - minimal recurring tool cost; fees must not erode margin.
+  - runs mostly by API + chat-ops with PC access.
 
-  * ≥30 digital sales/month on Etsy (templates)
-  * ≥20 POD sales/month with ≥25–35% gross margin (before income tax)
-  * ≥20 Gumroad subscribers by month 3 (churn <5%/mo)
+- **success metrics (90-day):**
+
+  - ≥30 digital sales/month on Etsy (templates)
+  - ≥20 POD sales/month with ≥25–35% gross margin (before income tax)
+  - ≥20 Gumroad subscribers by month 3 (churn <5%/mo)
 
 ---
 
@@ -24,17 +25,17 @@ here’s a crisp, “agent-ready” product spec that prioritizes the **highest 
 
 ### Stream A — Etsy **digital downloads** (most passive, fastest to profit)
 
-* **What:** auto-generated evergreen digital products (coding planners, cheatsheets, resume/portfolio kits, course outlines, fill-in templates, printable trackers, minimal wallpapers).
-* **Why this first:** no inventory/shipping; pure digital fulfillment; Etsy auto-delivers files; your only costs are platform fees. Etsy provides automated fulfillment and collects/remits some taxes for Canada in many scenarios, reducing admin. ([Etsy Help][1])
+- **What:** auto-generated evergreen digital products (coding planners, cheatsheets, resume/portfolio kits, course outlines, fill-in templates, printable trackers, minimal wallpapers).
+- **Why this first:** no inventory/shipping; pure digital fulfillment; Etsy auto-delivers files; your only costs are platform fees. Etsy provides automated fulfillment and collects/remits some taxes for Canada in many scenarios, reducing admin. ([Etsy Help][1])
 
 ### Stream B — Etsy + Printify **print-on-demand (POD)**
 
-* **What:** trend-aware tees/mugs/posters using Printify’s API to create/publish products to your Etsy shop, auto-route orders to printers.
-* **Why now:** scalable and mostly hands-off once listings + production partners are linked; Printify has full create/publish endpoints. ([developers.printify.com][2])
+- **What:** trend-aware tees/mugs/posters using Printify’s API to create/publish products to your Etsy shop, auto-route orders to printers.
+- **Why now:** scalable and mostly hands-off once listings + production partners are linked; Printify has full create/publish endpoints. ([developers.printify.com][2])
 
 ### Stream C — **Gumroad** micro-membership (recurring)
 
-* **What:** recurring “coding practice pack” (monthly). Delivery is automated; Gumroad is a **Merchant of Record** (handles sales tax/VAT) and has simple webhooks (“Ping”) for automations. Fees are transparent. ([Gumroad][3])
+- **What:** recurring “coding practice pack” (monthly). Delivery is automated; Gumroad is a **Merchant of Record** (handles sales tax/VAT) and has simple webhooks (“Ping”) for automations. Fees are transparent. ([Gumroad][3])
 
 ---
 
@@ -42,26 +43,26 @@ here’s a crisp, “agent-ready” product spec that prioritizes the **highest 
 
 ### Etsy (core fees you must model)
 
-* Listing fee **US\$0.20** per listing (renews every 4 months). **Transaction fee 6.5%** of item (and shipping if any). **Payment processing (Canada)** typically **3% + CA\$0.25 (domestic)** or **4% + CA\$0.25 (international)**. **Currency conversion fee 2.5%** if your listing currency ≠ deposit currency — set both to CAD to avoid this. **Regulatory operating fee (Canada)** **1.15%** of item+shipping. Etsy also has optional **Offsite Ads** fees (**12%/15%**)—you can opt out if under US\$10k last-365-days. ([Etsy Help][4])
-* Etsy may charge a **one-time shop setup fee** (varies by location; shown at shop creation). ([Etsy Help][4])
-* Digital orders are delivered automatically; you can (and should) use “digital” fulfillment so no manual action is required.
-* **Disclosure:** If you use a production partner (e.g., Printify) or AI in creation, Etsy requires you to **disclose** this in listings. ([Etsy][5])
+- Listing fee **US\$0.20** per listing (renews every 4 months). **Transaction fee 6.5%** of item (and shipping if any). **Payment processing (Canada)** typically **3% + CA\$0.25 (domestic)** or **4% + CA\$0.25 (international)**. **Currency conversion fee 2.5%** if your listing currency ≠ deposit currency — set both to CAD to avoid this. **Regulatory operating fee (Canada)** **1.15%** of item+shipping. Etsy also has optional **Offsite Ads** fees (**12%/15%**)—you can opt out if under US\$10k last-365-days. ([Etsy Help][4])
+- Etsy may charge a **one-time shop setup fee** (varies by location; shown at shop creation). ([Etsy Help][4])
+- Digital orders are delivered automatically; you can (and should) use “digital” fulfillment so no manual action is required.
+- **Disclosure:** If you use a production partner (e.g., Printify) or AI in creation, Etsy requires you to **disclose** this in listings. ([Etsy][5])
 
 ### Printify (POD)
 
-* API supports **create product**, **set print areas**, and **publish** to connected shops. Publishing mirrors title/description/images/variants. Shipping rates vary by print provider & destination; fetch via their docs/pages at runtime. ([developers.printify.com][2])
+- API supports **create product**, **set print areas**, and **publish** to connected shops. Publishing mirrors title/description/images/variants. Shipping rates vary by print provider & destination; fetch via their docs/pages at runtime. ([developers.printify.com][2])
 
 ### Gumroad
 
-* Pricing: **10% + US\$0.50** per direct sale; **30%** when sale is attributed to **Discover** (includes processing). As of **Jan 1, 2025**, Gumroad acts as **Merchant of Record** and handles sales tax globally. Webhooks (**Ping**) enable fully automated fulfillment/CRM. ([Gumroad][3])
+- Pricing: **10% + US\$0.50** per direct sale; **30%** when sale is attributed to **Discover** (includes processing). As of **Jan 1, 2025**, Gumroad acts as **Merchant of Record** and handles sales tax globally. Webhooks (**Ping**) enable fully automated fulfillment/CRM. ([Gumroad][3])
 
 ### Books (optional later): KDP
 
-* If you later automate low-content print books, note Amazon KDP **requires AI-content disclosure** and **reduced print royalties** (certain list-price tiers moved from 60% to **50%** on **June 10, 2025**). Use KDP’s royalty calculator when pricing. ([Kindle Direct Publishing][6])
+- If you later automate low-content print books, note Amazon KDP **requires AI-content disclosure** and **reduced print royalties** (certain list-price tiers moved from 60% to **50%** on **June 10, 2025**). Use KDP’s royalty calculator when pricing. ([Kindle Direct Publishing][6])
 
 ### Canada GST/HST quick facts
 
-* You’re a **small supplier** until **CA\$30,000** taxable supplies in **4 consecutive quarters**; once you exceed, you **must register** and charge GST/HST (timing rules apply). Etsy also collects/remits certain taxes on orders and on seller fees in Canada depending on your registration status—see their Canada tax page. ([Government of Canada][7])
+- You’re a **small supplier** until **CA\$30,000** taxable supplies in **4 consecutive quarters**; once you exceed, you **must register** and charge GST/HST (timing rules apply). Etsy also collects/remits certain taxes on orders and on seller fees in Canada depending on your registration status—see their Canada tax page. ([Government of Canada][7])
 
 ---
 
@@ -74,13 +75,13 @@ here’s a crisp, “agent-ready” product spec that prioritizes the **highest 
 **Price** – \[Transaction 6.5%] – \[Payment proc. 3% + CA\$0.25 (or 4% + CA\$0.25 if international)] – \[Regulatory 1.15%] – \[Listing fee amortization]
 Example at **CA\$7.99** (domestic payment):
 
-* Transaction: 7.99×0.065 = **0.51935**
-* Proc.: 7.99×0.03 + 0.25 = **0.4897**
-* Regulatory: 7.99×0.0115 = **0.091885**
-* Listing amortization: assume 1 listing → 10 sales per term ⇒ \~US\$0.02 ≈ **\~CA\$0.03**
-* **Estimated net per sale ≈ 7.99 − (0.51935+0.4897+0.091885+0.03) ≈ CA\$6.86** (before income tax).
+- Transaction: 7.99×0.065 = **0.51935**
+- Proc.: 7.99×0.03 + 0.25 = **0.4897**
+- Regulatory: 7.99×0.0115 = **0.091885**
+- Listing amortization: assume 1 listing → 10 sales per term ⇒ \~US\$0.02 ≈ **\~CA\$0.03**
+- **Estimated net per sale ≈ 7.99 − (0.51935+0.4897+0.091885+0.03) ≈ CA\$6.86** (before income tax).
 
-*(Adjust for international cards at 4% and include Offsite Ads only if enabled.)* ([Etsy Help][4])
+_(Adjust for international cards at 4% and include Offsite Ads only if enabled.)_ ([Etsy Help][4])
 
 ### B) Etsy POD via Printify (customer pays shipping)
 
@@ -95,12 +96,13 @@ Agent must fetch **base price** for the chosen product/provider and **shipping**
 
 ## 4) break-even plan (conservative)
 
-* **Assumptions:** initial tool spend ≤ **CA\$200** (first month), Etsy setup + \~20 listings (US\$0.20 each), Offsite Ads **OFF**, listing currency = CAD, digital example net ≈ **CA\$6.86**/sale as above.
-* **BE target:** recover **CA\$200** in contribution margin.
+- **Assumptions:** initial tool spend ≤ **CA\$200** (first month), Etsy setup + \~20 listings (US\$0.20 each), Offsite Ads **OFF**, listing currency = CAD, digital example net ≈ **CA\$6.86**/sale as above.
+- **BE target:** recover **CA\$200** in contribution margin.
 
-  * Sales needed ≈ **200 / 6.86 ≈ 30** digital sales.
-  * If 50% of payments are international (4% proc.), net might drop \~CA\$0.08–0.10 each → BE ≈ **31–32** sales.
-* **Timeline target:** hit 30 digital sales within **first 30–45 days** by launching **30–50 SKUs** and daily auto-renew/testing.
+  - Sales needed ≈ **200 / 6.86 ≈ 30** digital sales.
+  - If 50% of payments are international (4% proc.), net might drop \~CA\$0.08–0.10 each → BE ≈ **31–32** sales.
+
+- **Timeline target:** hit 30 digital sales within **first 30–45 days** by launching **30–50 SKUs** and daily auto-renew/testing.
 
 ---
 
@@ -108,29 +110,31 @@ Agent must fetch **base price** for the chosen product/provider and **shipping**
 
 ### Components
 
-* **Brain/Agent:** your AI chatbot (with PC access) orchestrating flows + prompting models.
-* **Secrets vault:** .env or Secret Manager for API keys (Etsy OAuth, Printify, Gumroad).
-* **DB:** lightweight SQLite/Postgres for products, assets, price floors, and logs.
-* **Workers:** headless scripts (Node/Python) invoked by scheduler or webhooks.
-* **No-code glue (optional):** n8n/Make/Zapier for Gumroad webhooks → CRM/email. ([n8n][8])
+- **Brain/Agent:** your AI chatbot (with PC access) orchestrating flows + prompting models.
+- **Secrets vault:** .env or Secret Manager for API keys (Etsy OAuth, Printify, Gumroad).
+- **DB:** lightweight SQLite/Postgres for products, assets, price floors, and logs.
+- **Workers:** headless scripts (Node/Python) invoked by scheduler or webhooks.
+- **No-code glue (optional):** n8n/Make/Zapier for Gumroad webhooks → CRM/email. ([n8n][8])
 
 ### Integrations & required scopes
 
-* **Etsy Open API v3** (OAuth 2.0; `listings_w`, `shops_w`, etc.). Base: `https://api.etsy.com/v3/` (or `openapi.etsy.com`). Include `x-api-key` and `Authorization: Bearer …`. ([developers.etsy.com][9])
-* **Key Etsy endpoints & flow (digital):**
+- **Etsy Open API v3** (OAuth 2.0; `listings_w`, `shops_w`, etc.). Base: `https://api.etsy.com/v3/` (or `openapi.etsy.com`). Include `x-api-key` and `Authorization: Bearer …`. ([developers.etsy.com][9])
+- **Key Etsy endpoints & flow (digital):**
 
   1. **Create draft listing**: `POST /application/shops/{shop_id}/listings` (aka `createDraftListing`).
   2. **Upload listing images**: `/listings/{listing_id}/images`.
   3. **Upload digital file**: `/listings/{listing_id}/files` (required to make a digital listing active).
   4. **Update → active**: `PATCH /application/shops/{shop_id}/listings/{listing_id}`.
-     *(As of Jan 2025 Etsy fixed an issue; update to active will **400** if a downloadable file is missing—ensure file upload before activation.)* ([developers.etsy.com][10])
-* **Printify API** (Personal Access Token).
+     _(As of Jan 2025 Etsy fixed an issue; update to active will **400** if a downloadable file is missing—ensure file upload before activation.)_ ([developers.etsy.com][10])
 
-  * Create product: `POST /v1/shops/{shop_id}/products.json` (set `blueprint_id`, `print_provider_id`, `print_areas`).
-  * Publish: `POST /v1/shops/{shop_id}/products/{product_id}/publish.json` (choose which fields to sync to Etsy). ([developers.printify.com][2])
-* **Gumroad**
+- **Printify API** (Personal Access Token).
 
-  * Webhooks: set **Ping endpoint** in settings; receive sale/subscription events (x-www-form-urlencoded). Use to auto-deliver bonus assets or trigger onboarding emails. ([app.gumroad.com][11])
+  - Create product: `POST /v1/shops/{shop_id}/products.json` (set `blueprint_id`, `print_provider_id`, `print_areas`).
+  - Publish: `POST /v1/shops/{shop_id}/products/{product_id}/publish.json` (choose which fields to sync to Etsy). ([developers.printify.com][2])
+
+- **Gumroad**
+
+  - Webhooks: set **Ping endpoint** in settings; receive sale/subscription events (x-www-form-urlencoded). Use to auto-deliver bonus assets or trigger onboarding emails. ([app.gumroad.com][11])
 
 ---
 
@@ -162,45 +166,45 @@ Agent must fetch **base price** for the chosen product/provider and **shipping**
 
 ## 7) compliance & listing text
 
-* **Etsy AI disclosure**: Include a short line in listings that used AI (“Design ideation assisted by AI; final assets curated and edited by us.”). ([Etsy][5])
-* **Production partner**: Disclose Printify as production partner on all POD listings. ([Etsy Help][12])
-* **Taxes (CA)**: track revenue vs **CA\$30k** small-supplier threshold; once exceeded, register and start charging/remitting GST/HST as required (Etsy’s marketplace collection rules vary by scenario; see Canada help page). ([Government of Canada][7])
+- **Etsy AI disclosure**: Include a short line in listings that used AI (“Design ideation assisted by AI; final assets curated and edited by us.”). ([Etsy][5])
+- **Production partner**: Disclose Printify as production partner on all POD listings. ([Etsy Help][12])
+- **Taxes (CA)**: track revenue vs **CA\$30k** small-supplier threshold; once exceeded, register and start charging/remitting GST/HST as required (Etsy’s marketplace collection rules vary by scenario; see Canada help page). ([Government of Canada][7])
 
 ---
 
 ## 8) monitoring & alerts (agent tasks)
 
-* **Daily jobs:** failed API calls, listing activations, Printify publish errors; orders mismatched >15 minutes.
-* **Weekly jobs:** price tests, keyword refresh, top 10 sellers duplication (new colorways).
-* **Monthly jobs:** reply to messages, check Etsy policy updates, verify GST/HST threshold progress, evaluate Gumroad churn.
+- **Daily jobs:** failed API calls, listing activations, Printify publish errors; orders mismatched >15 minutes.
+- **Weekly jobs:** price tests, keyword refresh, top 10 sellers duplication (new colorways).
+- **Monthly jobs:** reply to messages, check Etsy policy updates, verify GST/HST threshold progress, evaluate Gumroad churn.
 
 ---
 
 ## 9) tool stack (keep costs tiny)
 
-* **Must-have:** Etsy API app (free), Printify (free), lightweight DB, email sender (free tier).
-* **Nice-to-have (only if ROI positive):** one low-cost design tool or LLM writer; n8n/Make free tier for webhooks.
+- **Must-have:** Etsy API app (free), Printify (free), lightweight DB, email sender (free tier).
+- **Nice-to-have (only if ROI positive):** one low-cost design tool or LLM writer; n8n/Make free tier for webhooks.
 
 ---
 
 ## 10) delivery checklist (what the agent must hand back)
 
-* Working repos for: `/etsy-digital`, `/printify-pod`, `/gumroad-subscription`.
-* `.env.example` and README with scopes and callback URLs.
-* One-click scripts: `create_digital_listing`, `create_pod_product`, `price_floor_calculator`.
-* Unit-economics sheets (CSV) per SKU with computed margins using current rates.
+- Working repos for: `/etsy-digital`, `/printify-pod`, `/gumroad-subscription`.
+- `.env.example` and README with scopes and callback URLs.
+- One-click scripts: `create_digital_listing`, `create_pod_product`, `price_floor_calculator`.
+- Unit-economics sheets (CSV) per SKU with computed margins using current rates.
 
 ---
 
 ## appendix — key links the agent relies on (for correctness)
 
-* **Etsy fees & taxes (Canada):** listing/transaction/processing/currency conversion fees, **Regulatory 1.15% (CA)**, Offsite Ads **12%/15%**, setup fee note, and digital fulfillment. ([Etsy Help][4])
-* **Etsy Canada tax handling & small supplier context** (marketplace collection & fee taxes). ([Etsy Help][1])
-* **CRA small supplier rules (CA\$30k over 4 quarters).** ([Government of Canada][7])
-* **Etsy API request standards + endpoints** (OAuth2, headers, create listings, upload files, activation behavior fix Jan 2025). ([developers.etsy.com][9])
-* **Printify API** (create/publish products) & **shipping rates pages**. ([developers.printify.com][2])
-* **Gumroad** pricing/MoR + **Ping** webhooks. ([Gumroad][3])
-* **KDP** AI disclosure & royalty change (optional expansion). ([Kindle Direct Publishing][6])
+- **Etsy fees & taxes (Canada):** listing/transaction/processing/currency conversion fees, **Regulatory 1.15% (CA)**, Offsite Ads **12%/15%**, setup fee note, and digital fulfillment. ([Etsy Help][4])
+- **Etsy Canada tax handling & small supplier context** (marketplace collection & fee taxes). ([Etsy Help][1])
+- **CRA small supplier rules (CA\$30k over 4 quarters).** ([Government of Canada][7])
+- **Etsy API request standards + endpoints** (OAuth2, headers, create listings, upload files, activation behavior fix Jan 2025). ([developers.etsy.com][9])
+- **Printify API** (create/publish products) & **shipping rates pages**. ([developers.printify.com][2])
+- **Gumroad** pricing/MoR + **Ping** webhooks. ([Gumroad][3])
+- **KDP** AI disclosure & royalty change (optional expansion). ([Kindle Direct Publishing][6])
 
 ---
 
@@ -208,30 +212,30 @@ Agent must fetch **base price** for the chosen product/provider and **shipping**
 
 **Day 1–2**
 
-* Open Etsy shop (CAD currency), note any setup fee, connect Etsy API app; create 10 digital templates, stage listing JSON. ([Etsy Help][4])
+- Open Etsy shop (CAD currency), note any setup fee, connect Etsy API app; create 10 digital templates, stage listing JSON. ([Etsy Help][4])
 
 **Day 3–4**
 
-* Ship 20–30 digital listings live (API: draft → upload file → active). Turn **Offsite Ads OFF**.
+- Ship 20–30 digital listings live (API: draft → upload file → active). Turn **Offsite Ads OFF**.
 
 **Day 5**
 
-* Connect Printify via API, build 5 POD SKUs (Bella+Canvas 3001 tee is a good baseline), publish to Etsy; add **production partner**. ([developers.printify.com][2])
+- Connect Printify via API, build 5 POD SKUs (Bella+Canvas 3001 tee is a good baseline), publish to Etsy; add **production partner**. ([developers.printify.com][2])
 
 **Day 6**
 
-* Create Gumroad product + webhook; set monthly plan at a low anchor (e.g., CA\$3.99–5.99) to seed subscribers. ([app.gumroad.com][11])
+- Create Gumroad product + webhook; set monthly plan at a low anchor (e.g., CA\$3.99–5.99) to seed subscribers. ([app.gumroad.com][11])
 
 **Day 7**
 
-* Validate unit-economics sheet; adjust prices to keep ≥70–85% margin on digital and ≥25–35% on POD after all Etsy fees & processing.
+- Validate unit-economics sheet; adjust prices to keep ≥70–85% margin on digital and ≥25–35% on POD after all Etsy fees & processing.
 
 ---
 
 ### final notes
 
-* this plan deliberately **front-loads digital** (fastest to passive margin), then **layers POD** (scalable), then **adds recurring** (gumroad).
-* policy/fee references above are current as of **Sept 12, 2025** and linked so the agent can re-check before actions.
+- this plan deliberately **front-loads digital** (fastest to passive margin), then **layers POD** (scalable), then **adds recurring** (gumroad).
+- policy/fee references above are current as of **Sept 12, 2025** and linked so the agent can re-check before actions.
 
 if you want, i can generate the **exact API payloads** (sample JSON bodies) for your first 10 digital listings and 5 POD products so your agent can fire them off immediately.
 
@@ -248,3 +252,20 @@ if you want, i can generate the **exact API payloads** (sample JSON bodies) for 
 [11]: https://app.gumroad.com/ping?utm_source=chatgpt.com "Gumroad Ping"
 [12]: https://help.etsy.com/hc/en-us/articles/360000336547-Working-with-Production-Partners-on-Etsy?utm_source=chatgpt.com "Working with Production Partners on Etsy"
 [13]: https://printify.com/shipping-rates/?utm_source=chatgpt.com "Shipping rates"
+
+---
+
+## selected stack & links (added)
+
+- Automation glue: n8n (self‑host or cloud) for webhooks + cron; workers in Node/Python for Etsy/Printify heavy‑lifting. Pipedream acceptable alternative if you want hosted webhooks.
+- AI models: Claude/OpenAI primary; Ollama‑hosted Llama/Qwen for batch ideation fallback. Structured JSON outputs with schema prompts.
+- DB: SQLite → Postgres when scaling. Secrets via .env locally, secret manager later.
+
+See detailed docs:
+
+- docs/automation-tools.md
+- docs/ai-stack.md
+- docs/architecture.md
+- docs/integration-plan.md
+- docs/evaluation-matrix.md
+- docs/roadmap.md
