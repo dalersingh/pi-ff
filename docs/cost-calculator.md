@@ -3,6 +3,7 @@
 ## 📊 **Google Cloud Tier Structure Analysis**
 
 ### **Billing Account Requirements**
+
 - **Free Tier**: Limited to text-only models, NO image generation access
 - **Tier 1+ (Billing Enabled)**: Required for Gemini 2.5 Flash Image Preview
 - **Minimum Setup**: Credit card required, automatic billing enabled
@@ -12,6 +13,7 @@
 ## 💰 **Gemini API Pricing Structure**
 
 ### **Gemini 2.5 Flash Image Preview Costs**
+
 ```
 Current Pricing (as of Sept 2025):
 - Text Input: $0.075 per 1K tokens
@@ -21,10 +23,11 @@ Current Pricing (as of Sept 2025):
 ```
 
 ### **Request Composition for POD Automation**
+
 ```
 Typical Image Generation Request:
 - Text Prompt: ~100 tokens input
-- Style Instructions: ~50 tokens input  
+- Style Instructions: ~50 tokens input
 - Image Output: 1 image generated
 - Text Response: ~20 tokens output (metadata)
 
@@ -42,6 +45,7 @@ TOTAL PER IMAGE: ~$0.019 (≈CA$0.026)
 ### **Volume Scenarios**
 
 #### **Scenario 1: Conservative (30 designs/month)**
+
 ```
 30 designs × CA$0.026 = CA$0.78/month
 + Google Cloud base charges: CA$0
@@ -50,6 +54,7 @@ MONTHLY TOTAL: CA$1.17
 ```
 
 #### **Scenario 2: Target (50 designs/month)**
+
 ```
 50 designs × CA$0.026 = CA$1.30/month
 + Variations/iterations (3 per design): CA$3.90
@@ -59,6 +64,7 @@ MONTHLY TOTAL: CA$5.72
 ```
 
 #### **Scenario 3: Growth (100 designs/month)**
+
 ```
 100 designs × CA$0.026 = CA$2.60/month
 + Variations/iterations (4 per design): CA$10.40
@@ -69,6 +75,7 @@ MONTHLY TOTAL: CA$17.55
 ```
 
 #### **Scenario 4: Scale (200 designs/month)**
+
 ```
 200 designs × CA$0.026 = CA$5.20/month
 + Variations/iterations (5 per design): CA$26.00
@@ -84,6 +91,7 @@ MONTHLY TOTAL: CA$59.60
 ## 🚨 **Hidden Costs and Escalation Factors**
 
 ### **Google Cloud Additional Charges**
+
 ```
 Cloud Storage (image storage): CA$1-5/month
 Cloud Functions (automation): CA$2-10/month
@@ -93,12 +101,14 @@ POTENTIAL MONTHLY ADD-ON: CA$5-23
 ```
 
 ### **Usage Escalation Triggers**
+
 1. **Token Price Changes**: Google can adjust pricing with 30-day notice
 2. **Quality Iterations**: Failed generations increase costs linearly
 3. **Seasonal Demand**: Holiday periods may require 3-5x generation volume
 4. **Competition Response**: Market pressure may require more variation attempts
 
 ### **Cost Control Measures**
+
 ```
 Prompt Engineering Optimization:
 - Reduce token usage by 20-30%
@@ -123,6 +133,7 @@ Quality Gates:
 ### **Revenue Requirements per Design**
 
 #### **Cost Structure per Design**
+
 ```
 Direct Costs:
 - Gemini API: CA$0.026-0.30 (depending on iterations)
@@ -133,7 +144,7 @@ TOTAL DIRECT: CA$10-19
 
 Overhead Allocation:
 - Quality control time: CA$2-5 per design
-- Legal/compliance: CA$1-2 per design  
+- Legal/compliance: CA$1-2 per design
 - Marketing/promotion: CA$3-8 per design
 TOTAL OVERHEAD: CA$6-15
 
@@ -141,6 +152,7 @@ TOTAL COST PER DESIGN: CA$16-34
 ```
 
 #### **Required Selling Prices**
+
 ```
 For 25% Profit Margin:
 - Low complexity: CA$21 (cost CA$16)
@@ -158,6 +170,7 @@ For 35% Profit Margin:
 ## 🎯 **Monthly P&L Projections**
 
 ### **50 Designs/Month Scenario**
+
 ```
 REVENUE (30 sales @ avg CA$30): CA$900
 
@@ -177,6 +190,7 @@ BREAK-EVEN PRICE: CA$31.13 per sale
 ```
 
 ### **Cost Optimization Strategies**
+
 ```
 1. Improve Conversion Rate:
    50 designs → 40 sales = CA$1,200 revenue
@@ -201,6 +215,7 @@ BREAK-EVEN PRICE: CA$31.13 per sale
 ## 📋 **Cost Monitoring Setup**
 
 ### **Google Cloud Budget Alerts**
+
 ```
 Setup Budget Alerts at:
 - CA$10/month (warning)
@@ -210,6 +225,7 @@ Setup Budget Alerts at:
 ```
 
 ### **Monthly Cost Tracking**
+
 ```
 Key Metrics to Monitor:
 - Cost per successful generation
@@ -220,6 +236,7 @@ Key Metrics to Monitor:
 ```
 
 ### **Quarterly Review Triggers**
+
 ```
 Review pricing if:
 - API costs increase >25%
@@ -233,18 +250,21 @@ Review pricing if:
 ## 🎯 **Recommendations**
 
 ### **Start Small**
+
 - Begin with 30 designs/month scenario
 - Monitor costs closely for first quarter
 - Optimize prompting and quality processes
 - Scale only after achieving consistent profitability
 
 ### **Cost Control Priority**
+
 1. **Prompt Engineering**: Reduce token usage and improve success rate
 2. **Quality Gates**: Prevent expensive failed generations
 3. **Batch Processing**: Optimize API call efficiency
 4. **Monitoring**: Set up early warning systems
 
 ### **Profitability Path**
+
 - Target CA$35+ average selling price
 - Achieve 35%+ conversion rate (designs to sales)
 - Maintain <15% API retry rate
